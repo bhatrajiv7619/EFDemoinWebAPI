@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="EFDemoinWebAPI20191222020035" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Rajiv\\source\\repos\\EFDemoinWebAPI\\obj\\Release\\netcoreapp3\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="EFDemoinWebAPI.Data.EFDemoinWebAPIContext" description="" value="Server=tcp:mycompanydb3010.database.windows.net,1433;Initial Catalog=Company;Persist Security Info=False;User ID=dbaadmin;Password=password@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Rajiv\\source\\repos\\EFDemoinWebAPI\\obj\\Release\\netcoreapp3\.0\\PubTmp\\EFSQLScripts\\EFDemoinWebAPI\.Data\.EFDemoinWebAPIContext\.sql$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EFDemoinWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:EFDemoinWebAPI.Controllers.employeeController.Postemployee(EFDemoinWebAPI.Model.employee)">
+             <summary>
+             Creates an employee.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /employee
+                 {
+                    "Name": "Surjan",
+                    "Salary": "1234.50"
+                 }
+            
+             </remarks>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzjCd6OILfEyqaOaDGPfr+AAAAAACAAAAAAAQZgAAAAEAACAAAACNtT9MeVYREJKYPMs7rbYSH+Ldqmd1wCPaBfYoXO8FJwAAAAAOgAAAAAIAACAAAAB8Wo6fV6UtWUuyn3BYLYsBO7Rak91bqEDG4ClRszpwXYAAAADZXqwoyvFB7FOopVhF3GUgs5EL5Sis7gfM/HlyXN9MfVEtKtknHZKFw44X874YqaRrWeaGJMc8B6MNWYr4n7nEpdQ9PTSE/UfN/RVd3gd22lcZIOfoURT8dx4hSTg58owaXJ2SxWMf0tqrTRtUgeEbdastjaG5hpkUsescECtwpUAAAAALPkNXLn9dKJIiw2OBI6qOhufpbFPN7RBSjFkhKOSd/dk7mDR3/GLHNCGR3D7u+g5tNjhUC+MKN+6WsKGWPhq5</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="EFDemoinWebAPIContext">
+      <Value>Server=tcp:mycompanydb3010.database.windows.net,1433%3bInitial Catalog=Company%3bPersist Security Info=False%3bUser ID=dbaadmin%3bPassword=password%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="EFDemoinWebAPI.Data.EFDemoinWebAPIContext">
+      <Value>Server=tcp:mycompanydb3010.database.windows.net,1433%3bInitial Catalog=Company%3bPersist Security Info=False%3bUser ID=dbaadmin%3bPassword=password%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

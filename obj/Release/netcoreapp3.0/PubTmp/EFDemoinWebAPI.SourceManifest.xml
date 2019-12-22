@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Rajiv\source\repos\EFDemoinWebAPI\obj\Release\netcoreapp3.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\Rajiv\source\repos\EFDemoinWebAPI\obj\Release\netcoreapp3.0\PubTmp\EFSQLScripts\EFDemoinWebAPI.Data.EFDemoinWebAPIContext.sql" />
+</sitemanifest>
